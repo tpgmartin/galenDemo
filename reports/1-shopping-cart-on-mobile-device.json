@@ -1,0 +1,25 @@
+{
+  "testId" : "1-shopping-cart-on-mobile-device",
+  "name" : "Shopping cart on mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "file:///Users/tmartin/Documents/_repos/galenDemo/website/shopping-cart.html 500x700",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "    check specs/shopping-cart.spec -- include \"mobile\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "FileNotFoundException: Can't find file or resource: include",
+          "status" : "error",
+          "time" : 1429872992461,
+          "stacktrace" : "java.io.FileNotFoundException: Can't find file or resource: include\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:90)\n\tat net.mindengine.galen.api.Galen.checkLayout(Galen.java:62)\n\tat net.mindengine.galen.api.Galen.checkLayout(Galen.java:51)\n\tat net.mindengine.galen.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:46)\n\tat net.mindengine.galen.runner.GalenPageRunner.executeAction(GalenPageRunner.java:77)\n\tat net.mindengine.galen.runner.GalenPageRunner.run(GalenPageRunner.java:69)\n\tat net.mindengine.galen.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:71)\n\tat net.mindengine.galen.tests.GalenBasicTest.execute(GalenBasicTest.java:53)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)\n\tat java.lang.Thread.run(Thread.java:695)\n",
+          "type" : "node"
+        } ],
+        "time" : 1429872992408,
+        "type" : "node"
+      } ],
+      "time" : 1429872988777,
+      "type" : "node"
+    } ]
+  }
+}
