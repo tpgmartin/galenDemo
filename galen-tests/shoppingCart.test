@@ -7,4 +7,4 @@
 @@ parameterized using devices
 Shopping cart on ${device} device
   ${websiteUrl} ${size}
-    check specs/shopping-cart.spec -- include "${device}"
+    check specs/shopping-cart.spec --include "${device}"
